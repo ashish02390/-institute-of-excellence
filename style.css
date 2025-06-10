@@ -1,0 +1,199 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f0f6ff;
+  color: #222;
+}
+
+/* Header */
+header {
+  background-color: #004b93;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* .logo-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-title img {
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.logo-title h1 {
+  font-size: 28px;
+  text-align: center;
+} */
+
+/* Enroll Button */
+.enroll-btn {
+  background-color: white;
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.enroll-btn:hover {
+  background-color: white;
+}
+
+/* Navbar */
+nav {
+  background-color: #005bb5;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+/* Topper Section */
+.topper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.topper-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.topper-card:hover {
+  transform: scale(1.05);
+}
+
+.topper-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer a {
+  color: #aadfff;
+  font-weight: 600;
+}
+
+footer img {
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+.idec-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #004b93;
+  color: white;
+  position: relative;
+}
+
+/* Logo styles */
+.idec-header .logo img {
+  height: 80px;
+}
+
+/* Institute name centered horizontally */
+.idec-header .institute-name {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: white; /* golden */
+  margin: 0;
+  user-select: none;
+}
+
+/* Enroll button */
+.enroll-btn {
+  background-color: white;
+  color: #003366;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.enroll-btn:hover {
+  background-color: #ffdb4d;
+}
+
+.logo-title img,
+.idec-header .logo img {
+  height: 80px;
+  width: 80px; /* Ensure it's square */
+  border-radius: 50%; /* Makes it a circle */
+  object-fit: cover; /* Ensures image scales properly inside the circle */
+  margin-bottom: 10px;
+}
